@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+f:\cp\consoleapplication1\consoleapplication1\consoleapplication1.cpp(1): warning C4603: “_CRT_SECURE_NO_WARNINGS”: 未定义宏或在预编译头使用后定义发生改变
+  f:\cp\consoleapplication1\consoleapplication1\consoleapplication1.cpp(1): note: 将宏添加到预编译头中，而不是在此处定义
+  f:\cp\consoleapplication1\consoleapplication1\consoleapplication1.cpp(3): note: 使用预编译头
+f:\cp\consoleapplication1\consoleapplication1\consoleapplication1.cpp(36): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明

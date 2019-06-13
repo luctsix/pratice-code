@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="654cdf97-7ccf-4c3c-9e71-16d2c4e2f51e"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f6201444-5373-4392-9e25-688da0eb7f8f"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="4da5700f-e220-43ea-8933-9212f332af73"
+            name="Attribute1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="dfdb82ad-e0e4-4818-b85d-41b2c74f8cd2"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="c4037c42-5908-4e34-8cea-7c201312201d"
+        name="WEEK"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedLiterals>
+          <enumerationLiteral
+            Id="b1b22bf1-08ea-4531-9285-1297e8464644"
+            name="MONDAY" />
+          <enumerationLiteral
+            Id="0818298a-4499-4831-8f6b-7c9565adc513"
+            name="TUESDAY" />
+          <enumerationLiteral
+            Id="ba76bc7c-61a6-4c28-b164-d813547ac029"
+            name="WEDNSDAY" />
+          <enumerationLiteral
+            Id="d0fa0d56-c33f-4adc-b073-a842eb8911d4"
+            name="THURSDAY" />
+          <enumerationLiteral
+            Id="877707df-df1a-4ff6-809e-0e3c2f13c87a"
+            name="FRIDAY" />
+          <enumerationLiteral
+            Id="e35ee043-b02d-43b7-a173-70d615edf837"
+            name="SATURDAY" />
+          <enumerationLiteral
+            Id="b7939ace-b411-4e3d-a885-bde2f7a651b6"
+            name="SUNDAY" />
+        </ownedLiterals>
+      </enumeration>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="32524f89-f042-4623-bd8f-9cf0e8a1e86e"
+        name="planet"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="b6e9685d-73de-417e-9e4c-6532e5690818"
+            name="radius"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="08684a60-8f92-4dd5-83b6-b532ef58aeff"
+            name="密度"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d2c1c777-6176-4deb-b239-e85f73b26c99"
+            name="海路面积比"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="572d102c-f18c-43ac-9e2b-72a192a13822"
+            name="自转"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="9e6741b5-16dc-4da0-a04d-a9bd2c3ad217"
+            name="公转"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1ffaa4e9-021d-41c5-8081-826b141a96e2"
+        name="界"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d2108ee9-395f-4de0-ba81-9c85cc030733"
+        name="门"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="55ae5c83-42b1-4536-9a15-ea7fdf8b9614"
+        name="纲"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ea4c79d7-92c5-414e-9077-b92407c7b33a"
+        name="目"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cc6d0b55-83d5-4b8e-b4b9-3fa81561687a"
+        name="科"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="44af9189-250d-450e-a86a-d44c2403ff3f"
+        name="属"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="17529058-89c9-481e-9913-b7549a52973e"
+        name="种"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="f4dd3ede-adff-4e3a-92c8-4411835e2550"
+        name="植物界"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="69c012fe-6792-4fe2-8517-3281cb2c736d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1ffaa4e9-021d-41c5-8081-826b141a96e2"
+              LastKnownName="界"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="91a4185d-2d60-4501-a7f7-dbb00d3f8ec8"
+            isDerived="false"
+            sourceEndRoleName="植物界"
+            targetEndRoleName="动物界"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="dc1948b1-1836-465a-86a2-3d004d3ef34d"
+              LastKnownName="动物界"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a4943537-11bd-48e7-a4dc-1f5980de9ae1"
+                  name="植物界"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7bf98ef5-59b9-4cc1-9547-5b8e08bdd6ae"
+                  name="动物界"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8efff77a-7ea7-4fa6-b407-2ed2f821c07b"
+            isDerived="false"
+            sourceEndRoleName="植物界"
+            targetEndRoleName="微生物"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="733302de-a1c2-4215-a06a-2af081675eae"
+              LastKnownName="微生物"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="408ac22d-b4d8-49e3-b76a-7e1dd349cf80"
+                  name="植物界"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad733d61-49e1-4b94-86e4-9d90e19920d5"
+                  name="微生物"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="dc1948b1-1836-465a-86a2-3d004d3ef34d"
+        name="动物界"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="0a6065b2-99f9-4265-ae7a-4d7e604872ec"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1ffaa4e9-021d-41c5-8081-826b141a96e2"
+              LastKnownName="界"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="733302de-a1c2-4215-a06a-2af081675eae"
+        name="微生物"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="58fe0cfc-e1dc-4f12-aa8d-4795bc795674"
+            isSubstitutable="false">
+            <classMoniker
+              Id="1ffaa4e9-021d-41c5-8081-826b141a96e2"
+              LastKnownName="界"
+              LastKnownLocation="ModelingProject1.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="dafd9c35-5c8b-4087-8c4e-5bb98bc7652f"
+            isDerived="false"
+            sourceEndRoleName="微生物"
+            targetEndRoleName="动物界"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="dc1948b1-1836-465a-86a2-3d004d3ef34d"
+              LastKnownName="动物界"
+              LastKnownLocation="ModelingProject1.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="da1829fd-1011-4b0c-a82b-06a63b4d85cc"
+                  name="微生物"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc6ace5b-b846-456b-b573-2d74cda50762"
+                  name="动物界"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7a440006-f1fd-4d74-9682-546c5feeef2f"
+        name="学生"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="994f5451-4d13-4953-8c3c-9abff8694cff"
+            name="姓名"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2986b220-b569-4ab3-b266-b77f0c79b27b"
+            name="学号"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="477978bb-8535-4520-8f9a-2efa9d61ac98"
+            name="年龄"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="b936b4bb-5608-41c3-b4a3-dacf72de480a"
+            name="出生年月"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="570e2472-0f2d-4435-9eae-83b9a9a6a8b2"
+            name="身份证"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="10ff55ba-c63d-4ffa-a981-71c2605226d1"
+            name="籍贯"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="31e8dae3-4d79-4059-ac75-9908f437c85e"
+            name="个人信息"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5a03560f-576a-4af6-8ff1-a822ce353f0b"
+        name="个人身体信息"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="0f0dd6ce-c062-448b-bec0-7b59be0276ed"
+            name="身高"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="c1131cb8-b69d-4661-9673-9f45d30b975e"
+            name="体重"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

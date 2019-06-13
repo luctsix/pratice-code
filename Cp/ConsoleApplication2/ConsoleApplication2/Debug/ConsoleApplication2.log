@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  ConsoleApplication2.cpp
+f:\cp\consoleapplication2\consoleapplication2\consoleapplication2.cpp(3): warning C4603: “_CRT_SECURE_NO_WARNING”: 未定义宏或在预编译头使用后定义发生改变
+  f:\cp\consoleapplication2\consoleapplication2\consoleapplication2.cpp(3): note: 将宏添加到预编译头中，而不是在此处定义
+  f:\cp\consoleapplication2\consoleapplication2\consoleapplication2.cpp(5): note: 使用预编译头
+  ConsoleApplication2.vcxproj -> F:\Cp\ConsoleApplication2\Debug\ConsoleApplication2.exe
+  ConsoleApplication2.vcxproj -> F:\Cp\ConsoleApplication2\Debug\ConsoleApplication2.pdb (Full PDB)

@@ -1,0 +1,39 @@
+#include "mainwindow.h"
+
+#include <QEvent>
+#include <QObject>
+#include <QEvent>
+#include <QKeyEvent>
+#include <QDebug>
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+{
+    textEdit = new QTextEdit;
+    setCentralWidget(textEdit);
+    textEdit->installEventFilter(this);
+}
+
+bool MainWindow::eventFilter(QObject *obj, QEvent *event)
+{
+    if(obj == textEdit)
+    {
+        if(event->type() == QEvent::KeyPress)
+        {
+            QKeyEvent *keyEvent = static_cast<QKeyEvent*>(event);
+            qDebug()<<"Ate key press..."<<keyEvent->key();
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    else {
+        return QMainWindow::eventFilter(obj, event);
+    }
+}
+
+MainWindow::~MainWindow()
+{
+
+}

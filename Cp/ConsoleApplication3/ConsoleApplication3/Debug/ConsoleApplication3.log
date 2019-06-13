@@ -1,0 +1,7 @@
+﻿  5proComDemo.c
+e:\01study\5procomdemo.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\cp\consoleapplication3\packages\pthreads.2.9.1.4\build\native\include\pthread.h(320): error C2011: “timespec”:“struct”类型重定义
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\time.h(39): note: 参见“timespec”的声明
+e:\01study\5procomdemo.c(17): error C2449: 在文件范围内找到“{”(是否缺少函数头?)
+e:\01study\5procomdemo.c(32): error C2059: 语法错误:“}”
+e:\01study\5procomdemo.c(74): fatal error C1004: 发现意外的文件尾

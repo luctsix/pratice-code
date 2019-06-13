@@ -1,0 +1,1 @@
+#include<stdio.h>#include<stdlib.h>#include<string.h>#include<windows.h>#include<math.h>int main(){	int i,m,s;		for(i=600;i>=0;i--)	{		m = i/60;		s = i%60;		printf("00:%2d:%2d\n", m, s);				Sleep(1000);		system("cls");mdcmdd	}		return 0;}

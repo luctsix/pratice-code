@@ -1,0 +1,4 @@
+﻿  贪吃蛇.c
+f:\cp\贪吃蛇\贪吃蛇\贪吃蛇.c(75): warning C4013: “time”未定义；假设外部返回 int
+  贪吃蛇.vcxproj -> F:\Cp\贪吃蛇\Debug\贪吃蛇.exe
+  贪吃蛇.vcxproj -> F:\Cp\贪吃蛇\Debug\贪吃蛇.pdb (Partial PDB)
